@@ -44,7 +44,7 @@ print("=" * 100)
 print(f"뉴스제목: {title}")
 print("=" * 100)
 content = ""  # 전체 본문을 담을 변수
-contents.pop(-1)
+contents.pop(-1) # 제보 부분 지우기
 for tag in contents:
     content = content + tag.get_text()
 print(f"뉴스본문: {content}")
